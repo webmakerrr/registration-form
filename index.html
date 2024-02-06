@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../project-1/src (источник)/css/reset.css">
+    <link rel="stylesheet" href="../project-1/src (источник)/css/normalize.css">
+    <link rel="stylesheet" href="../registration form/thank-you.html">
+    <title>Registration Form</title>
+</head>
+<body>
+    <script>
+        alert("Heyyyy uuu\nTell me about yourself,dude <3");
+    </script> 
+    <form action="send_email.php" method="post">
+        <fieldset class="fieldset-userdata">
+            <legend class="legend-userdata">User data</legend>
+            <label class="username-label">
+                <span class="username-title">User Name:</span>
+                <input 
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+                class="username-input"
+                >
+            </label>
+            <br>
+            <label class="surname-label" for="surname">
+                <span class="surname-title">Surname:</span>
+                <input 
+                id="surname" 
+                type="text"
+                class="surname-input"
+                placeholder="Enter your surname"
+                >
+            </label>
+        
+            <h2 class="title-user-preferences">Choose your favorite idiom:</h2>
+               <label class="user-preferences">
+                No pain, no gain
+                <input 
+                type="radio"
+                name="idiom"
+                value="No pain, no gain"
+                >
+               </label>
+               <br>
+               <label class="user-preferences">
+                We are on the roll
+                <input 
+                type="radio" 
+                name="idiom"
+                value="We are on the roll"
+                >
+               </label>
+               <br>
+               <label class="user-preferences">
+                It ain't over till the fat lady sings
+               <input 
+               type="radio"
+               name="idiom"
+               value="It ain't over till the fat lady sings"
+               >
+               </label>
+        </fieldset>
+        <button>
+            <a href=""> Submit</a> 
+        </button>
+    </form>
+</body>
+</html>

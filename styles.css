@@ -1,0 +1,119 @@
+body {
+    background-color: #18191C;
+    padding: 30px;
+}
+ 
+form {
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 30px 30px;
+}
+
+.username-label {
+    display: block;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.username-title {
+    color: whitesmoke;
+    font-family: inherit;
+    margin-right: 35px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.username-input {
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    color: whitesmoke;
+    padding: 10px 15px;
+    font-family: inherit;
+    font-size: 20px;
+    text-align: left;
+}
+
+.fieldset-userdata {
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+
+.legend-userdata {
+    color: rgb(129, 133, 137);
+    font-family: inherit;
+    font-size: 18px;
+}
+
+.surname-label {
+    display: block;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 60px;
+}
+
+.surname-title {
+    color: whitesmoke;
+    font-family: inherit;
+    margin-right: 35px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.surname-input {
+    border: 1px solid whitesmoke;
+    background-color: transparent;
+    border-radius: 20px;
+    text-align: left;
+    padding: 10px 15px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+.title-user-preferences {
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.user-preferences {
+    display: block;
+    color: rgb(129, 133, 137);
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fieldset-userdata {
+    margin-bottom: 40px;
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 40px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+}
+
+a {
+    color: #18191C;  
+    font-weight: 500;
+    line-height: 1;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FA8072;
+}
